@@ -1,0 +1,16 @@
+{
+  "item.additional-materials.copper_nugget": "Copper Nugget",
+  "item.additional-materials.copper_sheet": "Copper Sheet",
+  "item.additional-materials.copper_dust": "Copper Dust",
+  "item.additional-materials.iron_sheet": "Iron Sheet",
+  "item.additional-materials.iron_dust": "Iron Dust",
+  "item.additional-materials.gold_sheet": "Gold Sheet",
+  "item.additional-materials.gold_dust": "Gold Dust",
+  "item.additional-materials.raw_lead": "Raw Lead",
+  "item.additional-materials.lead_ingot": "Lead Ingot",
+  "item.additional-materials.lead_nugget": "Lead Nugget",
+  "item.additional-materials.lead_sheet": "Lead Sheet",
+  "item.additional-materials.lead_dust": "Lead Dust",
+
+  "block.additional-materials.lead_block": "Lead Block"
+}
