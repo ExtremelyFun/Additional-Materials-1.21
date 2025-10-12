@@ -14,8 +14,15 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block LEAD_BLOCK = registerBlock("lead_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block BLOCK_OF_LEAD = registerBlock("block_of_lead",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block BLOCK_OF_RAW_LEAD = registerBlock("block_of_raw_lead",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LEAD_Ore = registerBlock("lead_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
 
 
 
@@ -33,7 +40,10 @@ public class ModBlocks {
         AdditionalMaterials.LOGGER.info("Registering Mod Blocks for" + AdditionalMaterials.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.LEAD_BLOCK);
+            entries.add(ModBlocks.BLOCK_OF_RAW_LEAD);
+            entries.add(ModBlocks.BLOCK_OF_LEAD);
+            entries.add(ModBlocks.LEAD_Ore);
+
         });
     }
 }

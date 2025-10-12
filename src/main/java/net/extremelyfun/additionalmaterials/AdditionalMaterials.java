@@ -1,6 +1,7 @@
 package net.extremelyfun.additionalmaterials;
 
 import net.extremelyfun.additionalmaterials.block.ModBlocks;
+import net.extremelyfun.additionalmaterials.item.ModItemGroups;
 import net.extremelyfun.additionalmaterials.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class AdditionalMaterials implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
+
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
 	}

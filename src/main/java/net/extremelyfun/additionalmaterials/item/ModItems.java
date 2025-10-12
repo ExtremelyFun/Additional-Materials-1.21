@@ -16,7 +16,7 @@ public class ModItems {
     public static final Item IRON_DUST = registerItem( "iron_dust", new Item(new Item.Settings()));
     public static final Item GOLD_SHEET = registerItem( "gold_sheet", new Item(new Item.Settings()));
     public static final Item GOLD_DUST = registerItem( "gold_dust", new Item(new Item.Settings()));
-    public static final Item Raw_LEAD = registerItem("raw_lead", new Item(new Item.Settings()));
+    public static final Item RAW_LEAD = registerItem("raw_lead", new Item(new Item.Settings()));
     public static final Item LEAD_INGOT = registerItem( "lead_ingot", new Item(new Item.Settings()));
     public static final Item LEAD_NUGGET = registerItem( "lead_nugget", new Item(new Item.Settings()));
     public static final Item LEAD_SHEET = registerItem( "lead_sheet", new Item(new Item.Settings()));
@@ -38,7 +38,7 @@ public class ModItems {
             entries.add(IRON_DUST);
             entries.add(GOLD_SHEET);
             entries.add(GOLD_DUST);
-            entries.add(Raw_LEAD);
+            entries.add(RAW_LEAD);
             entries.add(LEAD_INGOT);
             entries.add(LEAD_NUGGET);
             entries.add(LEAD_SHEET);
