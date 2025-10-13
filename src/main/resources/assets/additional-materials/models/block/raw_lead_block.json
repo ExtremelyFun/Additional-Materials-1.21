@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "additional-materials:block/block_of_lead"
+    "all": "additional-materials:block/raw_lead_block"
   }
 }

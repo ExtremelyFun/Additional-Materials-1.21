@@ -12,8 +12,8 @@
   "item.additional-materials.lead_sheet": "Lead Sheet",
   "item.additional-materials.lead_dust": "Lead Dust",
 
-  "block.additional-materials.block_of_raw_lead": "Block of Raw Lead",
-  "block.additional-materials.block_of_lead": "Block of Lead",
+  "block.additional-materials.raw_lead_block": "Block of Raw Lead",
+  "block.additional-materials.lead_block": "Block of Lead",
   "block.additional-materials.lead_ore": "Lead Ore",
 
   "itemgroup.additional-materials.additional_material_items": "Additional Materials Items",

@@ -33,11 +33,11 @@ public class ModItemGroups {
 
     public static final ItemGroup Additional_Materials_Blocks_Group = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(AdditionalMaterials.MOD_ID, "additional_materials_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BLOCK_OF_LEAD))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.LEAD_BLOCK))
                     .displayName(Text.translatable("itemgroup.additional-materials.additional_material_blocks"))
                     .entries((displayContext, entries) -> {
-                    entries.add(ModBlocks.BLOCK_OF_RAW_LEAD);
-                    entries.add(ModBlocks.BLOCK_OF_LEAD);
+                    entries.add(ModBlocks.RAW_LEAD_BLOCK);
+                    entries.add(ModBlocks.LEAD_BLOCK);
                     entries.add(ModBlocks.LEAD_Ore);
 
                     }).build());
