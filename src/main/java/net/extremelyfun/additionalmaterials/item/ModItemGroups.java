@@ -28,6 +28,30 @@ public class ModItemGroups {
                     entries.add(ModItems.LEAD_NUGGET);
                     entries.add(ModItems.LEAD_SHEET);
                     entries.add(ModItems.LEAD_DUST);
+                    entries.add(ModItems.RAW_OSMIUM);
+                    entries.add(ModItems.OSMIUM_INGOT);
+                    entries.add(ModItems.OSMIUM_NUGGET);
+                    entries.add(ModItems.OSMIUM_SHEET);
+                    entries.add(ModItems.OSMIUM_DUST);
+                    entries.add(ModItems.RAW_SILVER);
+                    entries.add(ModItems.SILVER_INGOT);
+                    entries.add(ModItems.SILVER_NUGGET);
+                    entries.add(ModItems.SILVER_SHEET);
+                    entries.add(ModItems.SILVER_DUST);
+                    entries.add(ModItems.RAW_TIN);
+                    entries.add(ModItems.TIN_INGOT);
+                    entries.add(ModItems.TIN_NUGGET);
+                    entries.add(ModItems.TIN_SHEET);
+                    entries.add(ModItems.TIN_DUST);
+                    entries.add(ModItems.RAW_TUNGSTEN);
+                    entries.add(ModItems.TUNGSTEN_INGOT);
+                    entries.add(ModItems.TUNGSTEN_NUGGET);
+                    entries.add(ModItems.TUNGSTEN_SHEET);
+                    entries.add(ModItems.TUNGSTEN_DUST);
+                    entries.add(ModItems.STEEL_INGOT);
+                    entries.add(ModItems.STEEL_NUGGET);
+                    entries.add(ModItems.STEEL_SHEET);
+                    entries.add(ModItems.STEEL_DUST);
 
                     }).build());
 

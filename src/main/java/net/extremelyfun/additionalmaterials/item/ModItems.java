@@ -21,6 +21,30 @@ public class ModItems {
     public static final Item LEAD_NUGGET = registerItem( "lead_nugget", new Item(new Item.Settings()));
     public static final Item LEAD_SHEET = registerItem( "lead_sheet", new Item(new Item.Settings()));
     public static final Item LEAD_DUST = registerItem( "lead_dust", new Item(new Item.Settings()));
+    public static final Item RAW_OSMIUM = registerItem("raw_osmium", new Item(new Item.Settings()));
+    public static final Item OSMIUM_INGOT = registerItem( "osmium_ingot", new Item(new Item.Settings()));
+    public static final Item OSMIUM_NUGGET = registerItem( "osmium_nugget", new Item(new Item.Settings()));
+    public static final Item OSMIUM_SHEET = registerItem( "osmium_sheet", new Item(new Item.Settings()));
+    public static final Item OSMIUM_DUST = registerItem( "osmium_dust", new Item(new Item.Settings()));
+    public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new Item.Settings()));
+    public static final Item SILVER_INGOT = registerItem( "silver_ingot", new Item(new Item.Settings()));
+    public static final Item SILVER_NUGGET = registerItem( "silver_nugget", new Item(new Item.Settings()));
+    public static final Item SILVER_SHEET = registerItem( "silver_sheet", new Item(new Item.Settings()));
+    public static final Item SILVER_DUST = registerItem( "silver_dust", new Item(new Item.Settings()));
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem( "tin_ingot", new Item(new Item.Settings()));
+    public static final Item TIN_NUGGET = registerItem( "tin_nugget", new Item(new Item.Settings()));
+    public static final Item TIN_SHEET = registerItem( "tin_sheet", new Item(new Item.Settings()));
+    public static final Item TIN_DUST = registerItem( "tin_dust", new Item(new Item.Settings()));
+    public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten", new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_INGOT = registerItem( "tungsten_ingot", new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_NUGGET = registerItem( "tungsten_nugget", new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_SHEET = registerItem( "tungsten_sheet", new Item(new Item.Settings()));
+    public static final Item TUNGSTEN_DUST = registerItem( "tungsten_dust", new Item(new Item.Settings()));
+    public static final Item STEEL_INGOT = registerItem( "steel_ingot", new Item(new Item.Settings()));
+    public static final Item STEEL_NUGGET = registerItem( "steel_nugget", new Item(new Item.Settings()));
+    public static final Item STEEL_SHEET = registerItem( "steel_sheet", new Item(new Item.Settings()));
+    public static final Item STEEL_DUST = registerItem( "steel_dust", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
