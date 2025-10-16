@@ -46,10 +46,24 @@ public class ModItems {
     public static final Item TUNGSTEN_NUGGET = registerItem( "tungsten_nugget", new Item(new Item.Settings()));
     public static final Item TUNGSTEN_SHEET = registerItem( "tungsten_sheet", new Item(new Item.Settings()));
     public static final Item TUNGSTEN_DUST = registerItem( "tungsten_dust", new Item(new Item.Settings()));
+    public static final Item RAW_COBALT = registerItem("raw_cobalt", new Item(new Item.Settings()));
+    public static final Item COBALT_INGOT = registerItem( "cobalt_ingot", new Item(new Item.Settings()));
+    public static final Item COBALT_NUGGET = registerItem( "cobalt_nugget", new Item(new Item.Settings()));
+    public static final Item COBALT_SHEET = registerItem( "cobalt_sheet", new Item(new Item.Settings()));
+    public static final Item COBALT_DUST = registerItem( "cobalt_dust", new Item(new Item.Settings()));
+    public static final Item RAW_ENDERIUM = registerItem("raw_enderium", new Item(new Item.Settings()));
+    public static final Item ENDERIUM_INGOT = registerItem( "enderium_ingot", new Item(new Item.Settings()));
+    public static final Item ENDERIUM_NUGGET = registerItem( "enderium_nugget", new Item(new Item.Settings()));
+    public static final Item ENDERIUM_SHEET = registerItem( "enderium_sheet", new Item(new Item.Settings()));
+    public static final Item ENDERIUM_DUST = registerItem( "enderium_dust", new Item(new Item.Settings()));
     public static final Item STEEL_INGOT = registerItem( "steel_ingot", new Item(new Item.Settings()));
     public static final Item STEEL_NUGGET = registerItem( "steel_nugget", new Item(new Item.Settings()));
     public static final Item STEEL_SHEET = registerItem( "steel_sheet", new Item(new Item.Settings()));
     public static final Item STEEL_DUST = registerItem( "steel_dust", new Item(new Item.Settings()));
+    public static final Item DRAGONSTEEL_INGOT = registerItem( "dragonsteel_ingot", new Item(new Item.Settings()));
+    public static final Item DRAGONSTEEL_NUGGET = registerItem( "dragonsteel_nugget", new Item(new Item.Settings()));
+    public static final Item DRAGONSTEEL_SHEET = registerItem( "dragonsteel_sheet", new Item(new Item.Settings()));
+    public static final Item DRAGONSTEEL_DUST = registerItem( "dragonsteel_dust", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {

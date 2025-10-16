@@ -53,10 +53,24 @@ public class ModItemGroups {
                     entries.add(ModItems.TUNGSTEN_NUGGET);
                     entries.add(ModItems.TUNGSTEN_SHEET);
                     entries.add(ModItems.TUNGSTEN_DUST);
+                    entries.add(ModItems.RAW_COBALT);
+                    entries.add(ModItems.COBALT_INGOT);
+                    entries.add(ModItems.COBALT_NUGGET);
+                    entries.add(ModItems.COBALT_SHEET);
+                    entries.add(ModItems.COBALT_DUST);
+                    entries.add(ModItems.RAW_ENDERIUM);
+                    entries.add(ModItems.ENDERIUM_INGOT);
+                    entries.add(ModItems.ENDERIUM_NUGGET);
+                    entries.add(ModItems.ENDERIUM_SHEET);
+                    entries.add(ModItems.ENDERIUM_DUST);
                     entries.add(ModItems.STEEL_INGOT);
                     entries.add(ModItems.STEEL_NUGGET);
                     entries.add(ModItems.STEEL_SHEET);
                     entries.add(ModItems.STEEL_DUST);
+                    entries.add(ModItems.DRAGONSTEEL_INGOT);
+                    entries.add(ModItems.DRAGONSTEEL_NUGGET);
+                    entries.add(ModItems.DRAGONSTEEL_SHEET);
+                    entries.add(ModItems.DRAGONSTEEL_DUST);
 
                     }).build());
 
@@ -89,6 +103,13 @@ public class ModItemGroups {
                     entries.add(ModBlocks.TUNGSTEN_BLOCK);
                     entries.add(ModBlocks.TUNGSTEN_ORE);
                     entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+                    entries.add(ModBlocks.RAW_COBALT_BLOCK);
+                    entries.add(ModBlocks.COBALT_BLOCK);
+                    entries.add(ModBlocks.COBALT_ORE);
+                    entries.add(ModBlocks.RAW_ENDERIUM_BLOCK);
+                    entries.add(ModBlocks.ENDERIUM_BLOCK);
+                    entries.add(ModBlocks.ENDERIUM_ORE);
+                    entries.add(ModBlocks.DRAGONSTEEL_BLOCK);
 
                     }).build());
 

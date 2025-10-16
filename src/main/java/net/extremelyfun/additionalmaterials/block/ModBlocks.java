@@ -138,6 +138,41 @@ public class ModBlocks {
                     ConstantIntProvider.create(0),
                     AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
 
+    public static final Block COBALT_BLOCK = registerBlock("cobalt_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block COBALT_ORE = registerBlock("cobalt_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ENDERIUM_BLOCK = registerBlock("enderium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_ENDERIUM_BLOCK = registerBlock("raw_enderium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block ENDERIUM_ORE = registerBlock("enderium_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DRAGONSTEEL_BLOCK = registerBlock("dragonsteel_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
 
 
 
@@ -179,6 +214,13 @@ public class ModBlocks {
             entries.add(ModBlocks.TUNGSTEN_BLOCK);
             entries.add(ModBlocks.TUNGSTEN_ORE);
             entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+            entries.add(ModBlocks.RAW_COBALT_BLOCK);
+            entries.add(ModBlocks.COBALT_BLOCK);
+            entries.add(ModBlocks.COBALT_ORE);
+            entries.add(ModBlocks.RAW_ENDERIUM_BLOCK);
+            entries.add(ModBlocks.ENDERIUM_BLOCK);
+            entries.add(ModBlocks.ENDERIUM_ORE);
+            entries.add(ModBlocks.DRAGONSTEEL_BLOCK);
 
         });
     }
