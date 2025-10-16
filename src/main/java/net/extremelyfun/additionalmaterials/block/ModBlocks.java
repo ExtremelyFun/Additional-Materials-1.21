@@ -4,6 +4,7 @@ import net.extremelyfun.additionalmaterials.AdditionalMaterials;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -14,6 +15,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.ConstantIntProvider;
 
 public class ModBlocks {
     public static final Block LEAD_BLOCK = registerBlock("lead_block",
@@ -25,11 +27,116 @@ public class ModBlocks {
 
     public static final Block RAW_LEAD_BLOCK = registerBlock("raw_lead_block",
             new Block(AbstractBlock.Settings.create()
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-                    .requiresTool().strength(5.0F, 6.0F)));
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
-    public static final Block LEAD_Ore = registerBlock("lead_ore",
+    public static final Block LEAD_ORE = registerBlock("lead_ore",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_LEAD_ORE = registerBlock(
+            "deepslate_lead_ore",
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_OSMIUM_BLOCK = registerBlock("raw_osmium_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block OSMIUM_ORE = registerBlock("osmium_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_OSMIUM_ORE = registerBlock(
+            "deepslate_osmium_ore",
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block SILVER_ORE = registerBlock("silver_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_SILVER_ORE = registerBlock(
+            "deepslate_silver_ore",
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block TIN_BLOCK = registerBlock("tin_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_TIN_ORE = registerBlock(
+            "deepslate_tin_ore",
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block ZINC_BLOCK = registerBlock("zinc_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_ZINC_BLOCK = registerBlock("raw_zinc_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block ZINC_ORE = registerBlock("zinc_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_ZINC_ORE = registerBlock(
+            "deepslate_zinc_ore",
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block TUNGSTEN_BLOCK = registerBlock("tungsten_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block RAW_TUNGSTEN_BLOCK = registerBlock("raw_tungsten_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block TUNGSTEN_ORE = registerBlock("tungsten_ore",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_TUNGSTEN_ORE = registerBlock(
+            "deepslate_tungsten_ore",
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
 
 
 
@@ -50,7 +157,28 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.RAW_LEAD_BLOCK);
             entries.add(ModBlocks.LEAD_BLOCK);
-            entries.add(ModBlocks.LEAD_Ore);
+            entries.add(ModBlocks.LEAD_ORE);
+            entries.add(ModBlocks.DEEPSLATE_LEAD_ORE);
+            entries.add(ModBlocks.RAW_OSMIUM_BLOCK);
+            entries.add(ModBlocks.OSMIUM_BLOCK);
+            entries.add(ModBlocks.OSMIUM_ORE);
+            entries.add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
+            entries.add(ModBlocks.RAW_SILVER_BLOCK);
+            entries.add(ModBlocks.SILVER_BLOCK);
+            entries.add(ModBlocks.SILVER_ORE);
+            entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+            entries.add(ModBlocks.RAW_TIN_BLOCK);
+            entries.add(ModBlocks.TIN_BLOCK);
+            entries.add(ModBlocks.TIN_ORE);
+            entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+            entries.add(ModBlocks.RAW_ZINC_BLOCK);
+            entries.add(ModBlocks.ZINC_BLOCK);
+            entries.add(ModBlocks.ZINC_ORE);
+            entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
+            entries.add(ModBlocks.RAW_TUNGSTEN_BLOCK);
+            entries.add(ModBlocks.TUNGSTEN_BLOCK);
+            entries.add(ModBlocks.TUNGSTEN_ORE);
+            entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
 
         });
     }

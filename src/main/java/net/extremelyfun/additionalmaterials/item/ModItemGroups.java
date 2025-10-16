@@ -38,6 +38,11 @@ public class ModItemGroups {
                     entries.add(ModItems.SILVER_NUGGET);
                     entries.add(ModItems.SILVER_SHEET);
                     entries.add(ModItems.SILVER_DUST);
+                    entries.add(ModItems.RAW_ZINC);
+                    entries.add(ModItems.ZINC_INGOT);
+                    entries.add(ModItems.ZINC_NUGGET);
+                    entries.add(ModItems.ZINC_SHEET);
+                    entries.add(ModItems.ZINC_DUST);
                     entries.add(ModItems.RAW_TIN);
                     entries.add(ModItems.TIN_INGOT);
                     entries.add(ModItems.TIN_NUGGET);
@@ -62,7 +67,28 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                     entries.add(ModBlocks.RAW_LEAD_BLOCK);
                     entries.add(ModBlocks.LEAD_BLOCK);
-                    entries.add(ModBlocks.LEAD_Ore);
+                    entries.add(ModBlocks.LEAD_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_LEAD_ORE);
+                    entries.add(ModBlocks.RAW_OSMIUM_BLOCK);
+                    entries.add(ModBlocks.OSMIUM_BLOCK);
+                    entries.add(ModBlocks.OSMIUM_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
+                    entries.add(ModBlocks.RAW_SILVER_BLOCK);
+                    entries.add(ModBlocks.SILVER_BLOCK);
+                    entries.add(ModBlocks.SILVER_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                    entries.add(ModBlocks.RAW_TIN_BLOCK);
+                    entries.add(ModBlocks.TIN_BLOCK);
+                    entries.add(ModBlocks.TIN_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                    entries.add(ModBlocks.RAW_ZINC_BLOCK);
+                    entries.add(ModBlocks.ZINC_BLOCK);
+                    entries.add(ModBlocks.ZINC_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
+                    entries.add(ModBlocks.RAW_TUNGSTEN_BLOCK);
+                    entries.add(ModBlocks.TUNGSTEN_BLOCK);
+                    entries.add(ModBlocks.TUNGSTEN_ORE);
+                    entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
 
                     }).build());
 

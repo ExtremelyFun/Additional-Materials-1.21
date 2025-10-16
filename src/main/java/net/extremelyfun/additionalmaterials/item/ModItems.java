@@ -31,6 +31,11 @@ public class ModItems {
     public static final Item SILVER_NUGGET = registerItem( "silver_nugget", new Item(new Item.Settings()));
     public static final Item SILVER_SHEET = registerItem( "silver_sheet", new Item(new Item.Settings()));
     public static final Item SILVER_DUST = registerItem( "silver_dust", new Item(new Item.Settings()));
+    public static final Item RAW_ZINC = registerItem("raw_zinc", new Item(new Item.Settings()));
+    public static final Item ZINC_INGOT = registerItem( "zinc_ingot", new Item(new Item.Settings()));
+    public static final Item ZINC_NUGGET = registerItem( "zinc_nugget", new Item(new Item.Settings()));
+    public static final Item ZINC_SHEET = registerItem( "zinc_sheet", new Item(new Item.Settings()));
+    public static final Item ZINC_DUST = registerItem( "zinc_dust", new Item(new Item.Settings()));
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItem( "tin_ingot", new Item(new Item.Settings()));
     public static final Item TIN_NUGGET = registerItem( "tin_nugget", new Item(new Item.Settings()));
@@ -55,18 +60,6 @@ public class ModItems {
         AdditionalMaterials.LOGGER.info("Registering Mod Items for" + AdditionalMaterials.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(COPPER_NUGGET);
-            entries.add(COPPER_SHEET);
-            entries.add(COPPER_DUST);
-            entries.add(IRON_SHEET);
-            entries.add(IRON_DUST);
-            entries.add(GOLD_SHEET);
-            entries.add(GOLD_DUST);
-            entries.add(RAW_LEAD);
-            entries.add(LEAD_INGOT);
-            entries.add(LEAD_NUGGET);
-            entries.add(LEAD_SHEET);
-            entries.add(LEAD_DUST);
 
         });
     }
