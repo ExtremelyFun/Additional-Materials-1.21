@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/osmium_ore"
+      "model": "additional-materials:block/materials/osmium/osmium_ore"
     }
   }
 }

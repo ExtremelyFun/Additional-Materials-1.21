@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/raw_zinc_block"
+      "model": "additional-materials:block/materials/zinc/raw_zinc_block"
     }
   }
 }

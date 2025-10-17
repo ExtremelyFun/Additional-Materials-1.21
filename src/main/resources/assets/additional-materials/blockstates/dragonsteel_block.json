@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/dragonsteel_block"
+      "model": "additional-materials:block/materials/dragonsteel/dragonsteel_block"
     }
   }
 }

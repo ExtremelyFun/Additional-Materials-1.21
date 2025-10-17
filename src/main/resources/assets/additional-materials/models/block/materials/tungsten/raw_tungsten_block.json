@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "additional-materials:block/materials/tungsten/raw_tungsten_block"
+  }
+}

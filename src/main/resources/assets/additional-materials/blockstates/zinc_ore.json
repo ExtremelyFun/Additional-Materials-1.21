@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/zinc_ore"
+      "model": "additional-materials:block/materials/zinc/zinc_ore"
     }
   }
 }

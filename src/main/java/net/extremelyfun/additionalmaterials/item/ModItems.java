@@ -64,6 +64,10 @@ public class ModItems {
     public static final Item DRAGONSTEEL_NUGGET = registerItem( "dragonsteel_nugget", new Item(new Item.Settings()));
     public static final Item DRAGONSTEEL_SHEET = registerItem( "dragonsteel_sheet", new Item(new Item.Settings()));
     public static final Item DRAGONSTEEL_DUST = registerItem( "dragonsteel_dust", new Item(new Item.Settings()));
+    public static final Item WARDENITE_INGOT = registerItem( "wardenite_ingot", new Item(new Item.Settings()));
+    public static final Item WARDENITE_NUGGET = registerItem( "wardenite_nugget", new Item(new Item.Settings()));
+    public static final Item WARDENITE_SHEET = registerItem( "wardenite_sheet", new Item(new Item.Settings()));
+    public static final Item WARDENITE_DUST = registerItem( "wardenite_dust", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {

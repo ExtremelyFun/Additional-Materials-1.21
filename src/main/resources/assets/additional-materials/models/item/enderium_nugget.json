@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additional-materials:item/enderium_nugget"
+    "layer0": "additional-materials:item/materials/enderium/enderium_nugget"
   }
 }

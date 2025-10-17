@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additional-materials:item/steel_sheet"
+    "layer0": "additional-materials:item/materials/steel/steel_sheet"
   }
 }

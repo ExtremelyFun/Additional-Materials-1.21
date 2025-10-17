@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additional-materials:item/copper_sheet"
+    "layer0": "additional-materials:item/materials/copper/copper_sheet"
   }
 }

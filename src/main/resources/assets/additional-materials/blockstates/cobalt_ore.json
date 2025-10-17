@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/cobalt_ore"
+      "model": "additional-materials:block/materials/cobalt/cobalt_ore"
     }
   }
 }

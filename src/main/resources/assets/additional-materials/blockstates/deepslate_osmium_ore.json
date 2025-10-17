@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/deepslate_osmium_ore"
+      "model": "additional-materials:block/materials/osmium/deepslate_osmium_ore"
     }
   }
 }

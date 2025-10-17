@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additional-materials:item/zinc_nugget"
+    "layer0": "additional-materials:item/materials/zinc/zinc_nugget"
   }
 }

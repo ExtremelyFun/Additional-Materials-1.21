@@ -71,6 +71,10 @@ public class ModItemGroups {
                     entries.add(ModItems.DRAGONSTEEL_NUGGET);
                     entries.add(ModItems.DRAGONSTEEL_SHEET);
                     entries.add(ModItems.DRAGONSTEEL_DUST);
+                    entries.add(ModItems.WARDENITE_INGOT);
+                    entries.add(ModItems.WARDENITE_NUGGET);
+                    entries.add(ModItems.WARDENITE_SHEET);
+                    entries.add(ModItems.WARDENITE_DUST);
 
                     }).build());
 
@@ -106,10 +110,12 @@ public class ModItemGroups {
                     entries.add(ModBlocks.RAW_COBALT_BLOCK);
                     entries.add(ModBlocks.COBALT_BLOCK);
                     entries.add(ModBlocks.COBALT_ORE);
+                    entries.add(ModBlocks.STEEL_BLOCK);
                     entries.add(ModBlocks.RAW_ENDERIUM_BLOCK);
                     entries.add(ModBlocks.ENDERIUM_BLOCK);
                     entries.add(ModBlocks.ENDERIUM_ORE);
                     entries.add(ModBlocks.DRAGONSTEEL_BLOCK);
+                    entries.add(ModBlocks.WARDENITE_BLOCK);
 
                     }).build());
 

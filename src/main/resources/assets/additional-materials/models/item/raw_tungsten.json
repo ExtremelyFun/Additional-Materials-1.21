@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additional-materials:item/raw_tungsten"
+    "layer0": "additional-materials:item/materials/tungsten/raw_tungsten"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additional-materials:item/raw_silver"
+    "layer0": "additional-materials:item/materials/silver/raw_silver"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/lead_ore"
+      "model": "additional-materials:block/materials/lead/lead_ore"
     }
   }
 }

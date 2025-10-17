@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/raw_enderium_block"
+      "model": "additional-materials:block/materials/enderium/raw_enderium_block"
     }
   }
 }

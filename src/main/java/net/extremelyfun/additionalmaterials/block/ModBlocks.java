@@ -166,12 +166,28 @@ public class ModBlocks {
     public static final Block ENDERIUM_ORE = registerBlock("enderium_ore",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block STEEL_BLOCK = registerBlock("steel_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
+
     public static final Block DRAGONSTEEL_BLOCK = registerBlock("dragonsteel_block",
             new Block(AbstractBlock.Settings.create()
                     .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresTool()
                     .strength(5.0F, 6.0F)
                     .sounds(BlockSoundGroup.METAL)));
+
+    public static final Block WARDENITE_BLOCK = registerBlock("wardenite_block",
+            new Block(AbstractBlock.Settings.create()
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 6.0F)
+                    .sounds(BlockSoundGroup.METAL)));
+
 
 
 

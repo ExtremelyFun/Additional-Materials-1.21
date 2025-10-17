@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/raw_tin_block"
+      "model": "additional-materials:block/materials/tin/raw_tin_block"
     }
   }
 }

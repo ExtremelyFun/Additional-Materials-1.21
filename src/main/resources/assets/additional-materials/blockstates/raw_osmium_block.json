@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/raw_osmium_block"
+      "model": "additional-materials:block/materials/osmium/raw_osmium_block"
     }
   }
 }

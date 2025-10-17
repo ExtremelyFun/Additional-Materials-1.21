@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "additional-materials:block/raw_silver_block"
+      "model": "additional-materials:block/materials/silver/raw_silver_block"
     }
   }
 }
