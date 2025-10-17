@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "additional-materials:lead_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "additional-materials:lead_nugget"
+  }
+}
