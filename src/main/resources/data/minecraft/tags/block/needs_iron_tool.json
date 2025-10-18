@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "additional-materials:raw_lead_block",
+    "additional-materials:lead_block",
+    "additional-materials:lead_ore",
+    "additional-materials:deepslate_lead_ore",
+    "additional-materials:raw_osmium_block",
+    "additional-materials:osmium_block",
+    "additional-materials:osmium_ore",
+    "additional-materials:deepslate_osmium_ore",
+    "additional-materials:raw_silver_block",
+    "additional-materials:silver_block",
+    "additional-materials:silver_ore",
+    "additional-materials:deepslate_silver_ore",
+    "additional-materials:raw_tin_block",
+    "additional-materials:tin_block",
+    "additional-materials:tin_ore",
+    "additional-materials:deepslate_tin_ore",
+    "additional-materials:raw_zinc_block",
+    "additional-materials:zinc_block",
+    "additional-materials:zinc_ore",
+    "additional-materials:deepslate_zinc_ore"
+  ]
+}

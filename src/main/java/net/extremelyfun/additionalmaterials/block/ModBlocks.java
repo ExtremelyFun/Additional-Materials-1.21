@@ -16,6 +16,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block LEAD_BLOCK = registerBlock("lead_block",
@@ -30,13 +31,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block LEAD_ORE = registerBlock("lead_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block DEEPSLATE_LEAD_ORE = registerBlock(
             "deepslate_lead_ore",
             new ExperienceDroppingBlock(
                     ConstantIntProvider.create(0),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block OSMIUM_BLOCK = registerBlock("osmium_block",
             new Block(AbstractBlock.Settings.create()
@@ -50,13 +53,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block OSMIUM_ORE = registerBlock("osmium_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block DEEPSLATE_OSMIUM_ORE = registerBlock(
             "deepslate_osmium_ore",
             new ExperienceDroppingBlock(
                     ConstantIntProvider.create(0),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block SILVER_BLOCK = registerBlock("silver_block",
             new Block(AbstractBlock.Settings.create()
@@ -70,13 +75,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block SILVER_ORE = registerBlock("silver_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock(
             "deepslate_silver_ore",
             new ExperienceDroppingBlock(
                     ConstantIntProvider.create(0),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block TIN_BLOCK = registerBlock("tin_block",
             new Block(AbstractBlock.Settings.create()
@@ -90,13 +97,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block TIN_ORE = registerBlock("tin_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block DEEPSLATE_TIN_ORE = registerBlock(
             "deepslate_tin_ore",
             new ExperienceDroppingBlock(
                     ConstantIntProvider.create(0),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block ZINC_BLOCK = registerBlock("zinc_block",
             new Block(AbstractBlock.Settings.create()
@@ -110,13 +119,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block ZINC_ORE = registerBlock("zinc_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block DEEPSLATE_ZINC_ORE = registerBlock(
             "deepslate_zinc_ore",
             new ExperienceDroppingBlock(
                     ConstantIntProvider.create(0),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block TUNGSTEN_BLOCK = registerBlock("tungsten_block",
             new Block(AbstractBlock.Settings.create()
@@ -130,13 +141,15 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block TUNGSTEN_ORE = registerBlock("tungsten_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block DEEPSLATE_TUNGSTEN_ORE = registerBlock(
             "deepslate_tungsten_ore",
             new ExperienceDroppingBlock(
                     ConstantIntProvider.create(0),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block COBALT_BLOCK = registerBlock("cobalt_block",
             new Block(AbstractBlock.Settings.create()
@@ -150,7 +163,9 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block COBALT_ORE = registerBlock("cobalt_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block ENDERIUM_BLOCK = registerBlock("enderium_block",
             new Block(AbstractBlock.Settings.create()
@@ -164,7 +179,9 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
 
     public static final Block ENDERIUM_ORE = registerBlock("enderium_ore",
-            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(
+                    ConstantIntProvider.create(0),
+                    AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)));
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(AbstractBlock.Settings.create()

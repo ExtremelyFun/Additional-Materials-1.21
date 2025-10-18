@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "additional-materials:raw_lead_block",
+    "additional-materials:lead_block",
+    "additional-materials:lead_ore",
+    "additional-materials:deepslate_lead_ore"
+  ]
+}
