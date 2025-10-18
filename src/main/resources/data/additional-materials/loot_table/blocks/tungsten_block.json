@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "additional-materials:tungsten_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "additional-materials:blocks/tungsten_block"
+}

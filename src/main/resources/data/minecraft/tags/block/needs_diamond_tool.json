@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "additional-materials:raw_tungsten_block",
+    "additional-materials:tungsten_block",
+    "additional-materials:tungsten_ore",
+    "additional-materials:deepslate_tungsten_ore",
+    "additional-materials:raw_cobalt_block",
+    "additional-materials:cobalt_block",
+    "additional-materials:cobalt_ore",
+    "additional-materials:raw_enderium_block",
+    "additional-materials:enderium_block",
+    "additional-materials:enderium_ore",
+    "additional-materials:steel_block",
+    "additional-materials:dragonsteel_block",
+    "additional-materials:wardenite_block"
+  ]
+}

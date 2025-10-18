@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "enderium_ingot",
+  "ingredient": {
+    "item": "additional-materials:enderium_ore"
+  },
+  "result": {
+    "id": "additional-materials:enderium_ingot"
+  }
+}
