@@ -54,10 +54,12 @@
   "item.additional-materials.dragonsteel_nugget": "Dragonsteel Nugget",
   "item.additional-materials.dragonsteel_sheet": "Dragonsteel Sheet",
   "item.additional-materials.dragonsteel_dust": "Dragonsteel Dust",
+  "item.additional-materials.dragon_scale": "Dragon Scale",
   "item.additional-materials.wardenite_ingot": "Wardenite Ingot",
   "item.additional-materials.wardenite_nugget": "Wardenite Nugget",
   "item.additional-materials.wardenite_sheet": "Wardenite Sheet",
   "item.additional-materials.wardenite_dust": "Wardenite Dust",
+  "item.additional-materials.warden_fur": "Warden Fur",
 
   "block.additional-materials.raw_lead_block": "Block of Raw Lead",
   "block.additional-materials.lead_block": "Block of Lead",

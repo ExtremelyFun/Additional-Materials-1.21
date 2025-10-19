@@ -71,10 +71,12 @@ public class ModItemGroups {
                     entries.add(ModItems.DRAGONSTEEL_NUGGET);
                     entries.add(ModItems.DRAGONSTEEL_SHEET);
                     entries.add(ModItems.DRAGONSTEEL_DUST);
+                    entries.add(ModItems.DRAGON_SCALE);
                     entries.add(ModItems.WARDENITE_INGOT);
                     entries.add(ModItems.WARDENITE_NUGGET);
                     entries.add(ModItems.WARDENITE_SHEET);
                     entries.add(ModItems.WARDENITE_DUST);
+                    entries.add(ModItems.WARDEN_FUR);
 
                     }).build());
 
