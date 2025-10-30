@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "additional-materials:wardenite_ingot"
+      "item": "additional-materials:echo_ingot"
     }
   ],
   "result": {
     "count": 9,
-    "id": "additional-materials:wardenite_nugget"
+    "id": "additional-materials:echo_nugget"
   }
 }

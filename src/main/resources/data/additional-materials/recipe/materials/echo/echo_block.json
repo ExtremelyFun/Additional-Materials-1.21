@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "additional-materials:wardenite_ingot"
+      "item": "additional-materials:echo_ingot"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "additional-materials:wardenite_block"
+    "id": "additional-materials:echo_block"
   }
 }

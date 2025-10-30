@@ -55,11 +55,10 @@
   "item.additional-materials.dragonsteel_sheet": "Dragonsteel Sheet",
   "item.additional-materials.dragonsteel_dust": "Dragonsteel Dust",
   "item.additional-materials.dragon_scale": "Dragon Scale",
-  "item.additional-materials.wardenite_ingot": "Wardenite Ingot",
-  "item.additional-materials.wardenite_nugget": "Wardenite Nugget",
-  "item.additional-materials.wardenite_sheet": "Wardenite Sheet",
-  "item.additional-materials.wardenite_dust": "Wardenite Dust",
-  "item.additional-materials.warden_fur": "Warden Fur",
+  "item.additional-materials.echo_ingot": "Echo Ingot",
+  "item.additional-materials.echo_nugget": "Echo Nugget",
+  "item.additional-materials.echo_sheet": "Echo Sheet",
+  "item.additional-materials.echo_dust": "Echo Dust",
 
   "block.additional-materials.raw_lead_block": "Block of Raw Lead",
   "block.additional-materials.lead_block": "Block of Lead",
@@ -93,7 +92,7 @@
   "block.additional-materials.enderium_ore": "Enderium Ore",
   "block.additional-materials.steel_block": "Steel Block",
   "block.additional-materials.dragonsteel_block": "Draagonsteel Block",
-  "block.additional-materials.wardenite_block": "Wardenite Block",
+  "block.additional-materials.echo_block": "Echo Block",
 
   "itemgroup.additional-materials.additional_material_items": "Additional Materials Items",
   "itemgroup.additional-materials.additional_material_blocks": "Additional Materials Blocks"

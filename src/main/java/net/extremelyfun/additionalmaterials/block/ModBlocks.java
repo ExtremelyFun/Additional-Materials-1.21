@@ -2,10 +2,7 @@ package net.extremelyfun.additionalmaterials.block;
 
 import net.extremelyfun.additionalmaterials.AdditionalMaterials;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -198,14 +195,12 @@ public class ModBlocks {
                     .strength(5.0F, 6.0F)
                     .sounds(BlockSoundGroup.METAL)));
 
-    public static final Block WARDENITE_BLOCK = registerBlock("wardenite_block",
+    public static final Block ECHO_BLOCK = registerBlock("echo_block",
             new Block(AbstractBlock.Settings.create()
                     .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresTool()
                     .strength(5.0F, 6.0F)
                     .sounds(BlockSoundGroup.METAL)));
-
-
 
 
 
@@ -223,37 +218,6 @@ public class ModBlocks {
         AdditionalMaterials.LOGGER.info("Registering Mod Blocks for" + AdditionalMaterials.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.RAW_LEAD_BLOCK);
-            entries.add(ModBlocks.LEAD_BLOCK);
-            entries.add(ModBlocks.LEAD_ORE);
-            entries.add(ModBlocks.DEEPSLATE_LEAD_ORE);
-            entries.add(ModBlocks.RAW_OSMIUM_BLOCK);
-            entries.add(ModBlocks.OSMIUM_BLOCK);
-            entries.add(ModBlocks.OSMIUM_ORE);
-            entries.add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
-            entries.add(ModBlocks.RAW_SILVER_BLOCK);
-            entries.add(ModBlocks.SILVER_BLOCK);
-            entries.add(ModBlocks.SILVER_ORE);
-            entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
-            entries.add(ModBlocks.RAW_TIN_BLOCK);
-            entries.add(ModBlocks.TIN_BLOCK);
-            entries.add(ModBlocks.TIN_ORE);
-            entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
-            entries.add(ModBlocks.RAW_ZINC_BLOCK);
-            entries.add(ModBlocks.ZINC_BLOCK);
-            entries.add(ModBlocks.ZINC_ORE);
-            entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
-            entries.add(ModBlocks.RAW_TUNGSTEN_BLOCK);
-            entries.add(ModBlocks.TUNGSTEN_BLOCK);
-            entries.add(ModBlocks.TUNGSTEN_ORE);
-            entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
-            entries.add(ModBlocks.RAW_COBALT_BLOCK);
-            entries.add(ModBlocks.COBALT_BLOCK);
-            entries.add(ModBlocks.COBALT_ORE);
-            entries.add(ModBlocks.RAW_ENDERIUM_BLOCK);
-            entries.add(ModBlocks.ENDERIUM_BLOCK);
-            entries.add(ModBlocks.ENDERIUM_ORE);
-            entries.add(ModBlocks.DRAGONSTEEL_BLOCK);
 
         });
     }

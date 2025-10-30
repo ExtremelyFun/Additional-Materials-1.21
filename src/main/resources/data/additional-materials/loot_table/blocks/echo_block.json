@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "additional-materials:wardenite_block"
+          "name": "additional-materials:echo_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "additional-materials:blocks/wardenite_block"
+  "random_sequence": "additional-materials:blocks/echo_block"
 }

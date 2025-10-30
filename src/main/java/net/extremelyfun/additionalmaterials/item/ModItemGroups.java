@@ -72,11 +72,10 @@ public class ModItemGroups {
                     entries.add(ModItems.DRAGONSTEEL_SHEET);
                     entries.add(ModItems.DRAGONSTEEL_DUST);
                     entries.add(ModItems.DRAGON_SCALE);
-                    entries.add(ModItems.WARDENITE_INGOT);
-                    entries.add(ModItems.WARDENITE_NUGGET);
-                    entries.add(ModItems.WARDENITE_SHEET);
-                    entries.add(ModItems.WARDENITE_DUST);
-                    entries.add(ModItems.WARDEN_FUR);
+                    entries.add(ModItems.ECHO_INGOT);
+                    entries.add(ModItems.ECHO_NUGGET);
+                    entries.add(ModItems.ECHO_SHEET);
+                    entries.add(ModItems.ECHO_DUST);
 
                     }).build());
 
@@ -117,7 +116,7 @@ public class ModItemGroups {
                     entries.add(ModBlocks.ENDERIUM_BLOCK);
                     entries.add(ModBlocks.ENDERIUM_ORE);
                     entries.add(ModBlocks.DRAGONSTEEL_BLOCK);
-                    entries.add(ModBlocks.WARDENITE_BLOCK);
+                    entries.add(ModBlocks.ECHO_BLOCK);
 
                     }).build());
 
